@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Quiz page 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "flex": 1,
+      "margin": "1%",
+      "paddingTop": "15%",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexGrow": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto",
+            },
+            Object {
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        Entertainment: Video Games
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderWidth": 2,
+            "height": 100,
+            "margin": 50,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <RCTWebView
+            allowsInlineMediaPlayback={undefined}
+            automaticallyAdjustContentInsets={undefined}
+            bounces={undefined}
+            contentInset={undefined}
+            dataDetectorTypes={undefined}
+            decelerationRate={undefined}
+            injectedJavaScript={undefined}
+            mediaPlaybackRequiresUserAction={undefined}
+            messagingEnabled={false}
+            onLoadingError={[Function]}
+            onLoadingFinish={[Function]}
+            onLoadingStart={[Function]}
+            onMessage={[Function]}
+            onShouldStartLoadWithRequest={undefined}
+            scalesPageToFit={true}
+            scrollEnabled={undefined}
+            source={
+              Object {
+                "html": "Unturned originally started as a Roblox game.",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                },
+                Object {
+                  "backgroundColor": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          />
+        </View>
+      </View>
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontSize": 20,
+              "textAlign": "center",
+            }
+          }
+        >
+          1
+           out of 
+          2
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "justifyContent": "space-between",
+          "margin": 50,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+          }
+        }
+      >
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "margin": 7,
+              },
+              Object {
+                "borderRadius": 28,
+                "height": 52,
+                "width": 52,
+              },
+              Object {
+                "shadowColor": "rgba(0,0,0, .4)",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 1,
+                },
+                "shadowOpacity": 1,
+                "shadowRadius": 1,
+              },
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#f50",
+                  "fontSize": 24,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                  undefined,
+                ],
+                Object {
+                  "fontFamily": "FontAwesome",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontFamily": "Roboto",
+              "fontSize": 20,
+            }
+          }
+        >
+          False
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+          }
+        }
+      >
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "margin": 7,
+              },
+              Object {
+                "borderRadius": 28,
+                "height": 52,
+                "width": 52,
+              },
+              Object {
+                "shadowColor": "rgba(0,0,0, .4)",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 1,
+                },
+                "shadowOpacity": 1,
+                "shadowRadius": 1,
+              },
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#00FF00",
+                  "fontSize": 24,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                  undefined,
+                ],
+                Object {
+                  "fontFamily": "FontAwesome",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontFamily": "Roboto",
+              "fontSize": 20,
+            }
+          }
+        >
+          True
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

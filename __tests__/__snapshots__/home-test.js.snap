@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders home page 1`] = `
+<View
+  style={
+    Object {
+      "display": "flex",
+      "flex": 1,
+      "margin": "1%",
+      "paddingTop": "15%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexGrow": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontFamily": "Roboto",
+          },
+          Object {
+            "fontSize": 20,
+          },
+        ]
+      }
+    >
+      Welcome to the Trivia Challenge
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexGrow": 1,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto",
+            },
+            Object {
+              "fontSize": 15,
+            },
+          ]
+        }
+      >
+        Your mission should you choose to accept it 
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto",
+            },
+            Object {
+              "fontSize": 15,
+            },
+          ]
+        }
+      >
+        will be to answer 10 True/False questions 
+      </Text>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontFamily": "Roboto",
+          },
+          Object {
+            "fontSize": 25,
+          },
+        ]
+      }
+    >
+      Can you score 100%
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexGrow": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      collapsable={undefined}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#68a0cf",
+          "borderRadius": 10,
+          "opacity": 1,
+          "paddingBottom": 10,
+          "paddingTop": 10,
+          "width": 100,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#fff",
+          }
+        }
+      >
+        Begin
+      </Text>
+    </View>
+  </View>
+</View>
+`;
