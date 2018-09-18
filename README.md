@@ -18,16 +18,16 @@ Runs the [jest](https://github.com/facebook/jest) test runner on your tests.
 #### `Screenshots`
 
 #### Home
-![](screenshots/home.jpg)
+<img src="screenshots/home.jpg" width="300">
 
 #### Quiz
-![](screenshots/quiz1.jpg)
+<img src="screenshots/quiz2.jpg" width="300">
 
 #### Quiz
-![](screenshots/quiz2.jpg)
+<img src="screenshots/quiz3.jpg" width="300">
 
 #### Quiz
-![](screenshots/quiz3.jpg)
+<img src="screenshots/quiz1.jpg" width="300">
 
 #### Result
-![](screenshots/result.jpg)
+<img src="screenshots/result.jpg" width="300">
