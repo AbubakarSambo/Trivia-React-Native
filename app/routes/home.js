@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, TouchableOpacity } from 'react-native'
 import {getQuestions} from '../actions/questions'
 
 export class Home extends Component {
-  componentWillMount () {
+  componentDidMount () {
     this.props.getQuestions()
   }
 
@@ -12,14 +12,14 @@ export class Home extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text style={[styles.font, styles.headerText]}>Welcome to the Trivia Challenge</Text>
+          <Text style={styles.headerText}>Welcome to the Trivia Challenge</Text>
         </View>
         <View style={styles.body}>
           <View >
-            <Text style={[styles.font, styles.bodyText]}>Your mission should you choose to accept it </Text>
-            <Text style={[styles.font, styles.bodyText]}>will be to answer 10 True/False questions </Text>
+            <Text style={styles.bodyText}>Your mission should you choose to accept it </Text>
+            <Text style={styles.bodyText}>will be to answer 10 True/False questions </Text>
           </View>
-          <Text style={[styles.font, styles.score]}>Can you score 100%</Text>
+          <Text style={styles.score}>Can you score 100%</Text>
         </View>
         <View style={styles.footer}>
           <TouchableOpacity style={styles.begin} onPress={() => this.props.navigation.navigate('Quiz')}>
@@ -45,9 +45,6 @@ const styles = StyleSheet.create({
     margin: '1%',
     flex: 1,
     paddingTop: '15%'
-  },
-  font: {
-    fontFamily: 'Roboto'
   },
   headerText: {
     fontSize: 20

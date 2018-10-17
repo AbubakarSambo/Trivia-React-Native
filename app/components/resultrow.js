@@ -1,6 +1,7 @@
 import React from 'react'
 import { Icon } from 'react-native-elements'
-import { StyleSheet, View, WebView } from 'react-native'
+import { StyleSheet, View, Text } from 'react-native'
+import entities from 'entities'
 import PropTypes from 'prop-types'
 
 export const ResultRow = ({ item }) => {
@@ -13,7 +14,7 @@ export const ResultRow = ({ item }) => {
         name={correct ? 'check' : 'times'}
         type='font-awesome'
         color='#f50' />
-      <WebView source={{ html: item.question }} />
+      <Text style={{width: 300}} >{entities.decodeHTML(item.question)}</Text>
     </View>
   )
 }
@@ -40,6 +41,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'green',
     borderRadius: 15,
     marginBottom: 10,
-    marginRight: 5
+    marginRight: 5,
+    padding: 10,
   }
 })

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Icon } from 'react-native-elements'
+import entities from 'entities'
 import { StyleSheet, Text, View, ActivityIndicator, WebView } from 'react-native';
 import { setQuestions } from '../actions/questions'
 
@@ -25,9 +26,9 @@ export class Quiz extends Component {
 
     this.props.setQuestions(updatedQuestions)
     if (questionIndex + 1 === questions.length) {
-      let totalScore = updatedQuestions.reduce((total, a) => {
+      let totalScore = updatedQuestions.reduce((total, question) => {
         let value = 0
-        if (a.correct_answer === a.selectedAnswer) {
+        if (question.correct_answer === question.selectedAnswer) {
           value = 1
         }
         return total + value
@@ -51,11 +52,11 @@ export class Quiz extends Component {
           <ActivityIndicator style={styles.loader} size="large" color="#000" /> :
           <View>
             <View style={styles.header}>
-              <Text style={[styles.font, styles.headerText]}>{questions.length > 0 && questions[questionIndex].category}</Text>
+              <Text style={styles.headerText}>{questions.length > 0 && questions[questionIndex].category}</Text>
             </View>
             <View style={styles.body}>
               <View style={styles.questionBody}>
-                <WebView source={{ html: questions[questionIndex].question }} />
+                <Text>{entities.decodeHTML(questions[questionIndex].question)}</Text>
               </View>
               <View >
                 <Text style={styles.questionNumber}>{questionIndex + 1} out of {questions.length}</Text>
@@ -109,9 +110,6 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: '15%',
   },
-  font: {
-    fontFamily: 'Roboto',
-  },
   headerText: {
     fontSize: 20
   },
@@ -127,6 +125,7 @@ const styles = StyleSheet.create({
     margin: 50,
     height: 100,
     borderWidth: 2,
+    padding: 10
   },
   loader: {
     display: 'flex',
@@ -138,7 +137,6 @@ const styles = StyleSheet.create({
     fontSize: 20
   },
   bodyText: {
-    fontFamily: 'Roboto',
     fontSize: 20
   },
   footer: {

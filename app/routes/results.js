@@ -16,8 +16,8 @@ class Results extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text style={[styles.font, styles.headerText]}>You Scored</Text>
-          <Text style={[styles.font, styles.headerText]}>{navigation.getParam('totalScore', 'Not Available')}/{questions.length}</Text>
+          <Text style={styles.headerText}>You Scored</Text>
+          <Text style={styles.headerText}>{navigation.getParam('totalScore', 'Not Available')}/{questions.length}</Text>
         </View>
         <View style={styles.body}>
           
@@ -57,9 +57,6 @@ const styles = StyleSheet.create({
     marginTop: '10%',
     flex: 1,
   },
-  font: {
-    fontFamily: 'Roboto',
-  },
   headerText: {
     fontSize: 20
   },
@@ -72,7 +69,7 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     flexDirection: 'column',
     display: 'flex',
-    height: 300
+    height: 250
 
   },
   footer: {
